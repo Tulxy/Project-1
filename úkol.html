@@ -5,21 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Edukin</title>
 </head>
 <body>
 
-<nav id="nav">
+<nav class="nav" id="nav">
     <div>
-        <img src="Images/Edukin.png" alt="Edukin">
+        <img src="Images/Edukin.png" alt="Edukin" height="80" width="220">
     </div>
 
     <ul>
-        <li><a href="úkol.html">Courses</a></li>
-        <li><a href="">Bootcamps</a></li>
-        <li><a href="">Community</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Pricing</a></li>
+        <li><a class="btn" href="úkol.html">Courses</a></li>
+        <li><a class="btn" href="">Bootcamps</a></li>
+        <li><a class="btn" href="">Community</a></li>
+        <li><a class="btn" href="">About</a></li>
+        <li><a class="btn" href="">Pricing</a></li>
     </ul>
 
     <div>
@@ -30,39 +31,75 @@
 
 <main>
     <section id="main">
-        <h6>Learning platform</h6>
-        <h1>Grow now with digital skills</h1>
-        <p>We happily cut through the noise and teach designers and devs personally, taking a 100% learn-by-doing
-            approach with a zero Powerpoint policy</p>
+        <h6 class="h6-main"><span>Learning platform</span></h6>
+        <h1 class="h1-main">Grow now with</h1>
+        <h1 class="h1-main-orange">digital skills</h1>
+        <p class="p-1">We happily cut through the noise and teach designers and devs personally, taking<br>
+            a 100% learn-by-doing approach with a zero Powerpoint policy</p>
     </section>
 
     <section class="navigation">
-        <button>Courses</button>
-        <button>Join Bootcamps</button>
+        <h3 class="nav-h3">Explore Courses</h3>
+        <h3 class="nav-h3">Join Bootcamps</h3>
     </section>
 
     <section>
-        <h6>Trusted by 500,000 Designers in 150 countries</h6>
+        <h6 class="h6-secondary">Trusted by 500,000 Designers in 150 countries</h6>
         <div>
             <img src="Images/Sponzoři.png" alt="Sponzors">
         </div>
     </section>
 
-    <section id="Courses">
-        <h6>Most Popular</h6>
-        <h2>Our featured courses</h2>
-    </section>
+    <div class="page2">
+        <section id="Courses">
+            <h6 class="h6-main-2"><span>Most Popular</span></h6>
+            <h2>Our featured courses</h2>
+        </section>
 
-    <section id="Products">
-        <article>
-            <img src="Images/Article%201.png">
-            <h6>Digital Marketing Strategy</h6>
-            <p>Intermidiate - 2hour 10min</p>
-        </article>
-    </section>
+        <section class ="Articles" id="Products">
+            <article>
+                <img src="Images/Article%201.png" alt="">
+                <h4>Digital Marketing Strategy</h4>
+                <p>Intermediate - 2hour 10min</p>
+                <button>Enroll now</button>
+            </article>
+            <article>
+                <img src="Images/Article%202.png" height="210" width="230" alt="">
+                <h4>Digital Marketing Strategy</h4>
+                <p>Intermediate - 2hour 10min</p>
+                <button>Enroll now</button>
+            </article>
+            <article>
+                <img src="Images/Article%203.png" height="210" width="230" alt="">
+                <h4>Digital Marketing Strategy</h4>
+                <p>Intermediate - 2hour 10min</p>
+                <button>Enroll now</button>
+            </article>
+            <article>
+                <img src="Images/Article%204.jpg" height="210" width="230" alt="">
+                <h4>Digital Marketing Strategy</h4>
+                <p>Intermediate - 2hour 10min</p>
+                <button>Enroll now</button>
+            </article>
+        </section>
+    </div>
 
+    <footer id="footer">
+        <div>
+            <hr>
+            <h2>Contact us</h2>
+            <p>tel: +420 776 892 563
+            mail: edukin@gmail.au<hr></p>
+            <div class="social-icons">
+                <p><a href="" target="_blank">Instagram</a></p>
+                <p><a href="" target="_blank">Twitter</a></p>
+                <p><a href="" target="_blank">LinkedIn</a></p>
+                <p><a href="" target="_blank">GitHub</a></p>
+            </div>
+        </div>
+        <p>&copy; 2024 Edukin. All Rights Reserved.</p>
+    </footer>
 </main>
-
 
 </body>
 </html>

@@ -1,0 +1,118 @@
+.page2 {
+    padding-top: 80px;
+    background-color: #f3f3f3;
+}
+
+.h1-main {
+    text-align: center;
+    font: 80px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+    margin: -20px auto;
+}
+
+.h1-main-orange {
+    text-align: center;
+    font: 80px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+    margin: 5px auto;
+    color: #ff6a00;
+}
+
+.h6-main {
+    text-align: center;
+    color: #686868;
+    font: 12px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+}
+
+.h6-main span {
+    display: inline-block;
+    background-color: #e4e4e4;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.h6-main-2 {
+    margin-top: 0px;
+    text-align: center;
+    color: #808080;
+    font: 12px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+}
+
+.h6-main-2 span {
+    display: inline-block;
+    background-color: #f8f8f8;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+
+.h6-secondary {
+    text-align: center;
+    font: 23px "Apple LiGothic", Helvetica, Arial, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+.p-1 {
+    text-align: center;
+    color: #606060;
+    font: 16px "Arial Unicode MS", Helvetica, Arial, sans-serif, bold;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-h3 {
+    border-radius: 45px;
+    border: 2px solid #bfbfbf;
+    background-color: #ffffff;
+    font: 16px "Arial Unicode MS", Helvetica, Arial, sans-serif;
+    padding: 16px 30px 16px 30px;
+}
+
+.nav-h3:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.navigation h1 h2 {
+    margin: 0; /* Remove default margin */
+    padding: 0 10px; /* Add some padding if needed */
+}
+
+.nav {
+    background: #ffffff;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font: bold 18px/1 "Bahnschrift", sans-serif;
+}
+
+.nav li {
+    margin: 20px 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #000000;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #000000;
+    border-radius: 20px;
+    color: #ffffff;
+}
