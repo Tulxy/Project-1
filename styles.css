@@ -1,7 +1,7 @@
 .page2 {
     padding-top: 80px;
     background-color: #f3f3f3;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     margin-bottom: -180px;
 }
 
@@ -45,13 +45,13 @@
 
 .h6-main {
     text-align: center;
-    color: #fdfdfd;
+    color: #ffffff;
     font: 12px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
 }
 
 .h6-main span {
     display: inline-block;
-    background-color: #e4e4e4;
+    background-color: #dfdfdf;
     padding: 10px;
     border-radius: 20px;
 }
@@ -91,17 +91,20 @@
 }
 
 .nav-h3 {
-    border-radius: 45px;
-    border: 2px solid #bfbfbf;
-    background-color: #ffffff;
-    font: 16px "Arial Unicode MS", Helvetica, Arial, sans-serif;
-    padding: 16px 30px 16px 30px;
+    border-radius: 55px;
+    color: black;
+    font: 15px "Arial Unicode MS", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #8c8c8c;
+    padding: 15px 35px 15px 35px;
 }
 
 .nav-h3:hover {
     background-color: #000000;
     color: #ffffff;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .navigation h1 h2 {
@@ -145,11 +148,55 @@
     color: #ffffff;
 }
 
+.Articles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 0;
+}
+
+.article1 {
+    background: #fbfbfb;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 60%;
+    margin: auto;
+}
+
+.article1 h4 {
+    font: bold 18px/1 "Bahnschrift", sans-serif;
+}
+
+.article1 p {
+    font: bold 12px/1 "Bahnschrift", sans-serif;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.article1 a {
+    text-decoration: none;
+    font: bold 13px/1 "Bahnschrift", sans-serif;
+    border: 2px solid #8c8c8c;
+    padding: 5px;
+    border-radius: 25px;
+    color: #000000;
+}
+
+.article1 a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 .footer {
     border-radius: 30px 30px 0px 0px;
     background: #c6c6c6;
     padding: 10px;
     margin-top: 20px;
+    transform: translateY(60px);
 }
 
 .contact-us {
