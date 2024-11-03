@@ -1,3 +1,7 @@
+body {
+    background-size: cover;
+}
+
 .page2 {
     padding-top: 80px;
     background-color: #f3f3f3;
@@ -7,13 +11,15 @@
 
 .h1-main {
     text-align: center;
-    font: 80px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
-    margin: -20px auto;
+    font: 90px "Gill Sans", Helvetica, Arial, sans-serif;;
+    font-weight: 600;
+    margin: -30px auto;
 }
 
 .h1-main-orange {
     text-align: center;
-    font: 80px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+    font: 90px "Gill Sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
     margin: 5px auto;
     color: #ff6a00;
 }
@@ -36,10 +42,12 @@
 .h2-main:hover {
     color: #ffffff;
     background-color: #8c8c8c;
+    transition: 0.3s;
 }
 
 .h2-main-2 {
-    font: 65px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+    font: 75px "Gill Sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -96,7 +104,7 @@
     font: 15px "Arial Unicode MS", Helvetica, Arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
-    border: 2px solid #8c8c8c;
+    border: 1px solid #8c8c8c;
     padding: 15px 35px 15px 35px;
 }
 
@@ -108,8 +116,8 @@
 }
 
 .navigation h1 h2 {
-    margin: 0; /* Remove default margin */
-    padding: 0 10px; /* Add some padding if needed */
+    margin: 0;
+    padding: 0 10px;
 }
 
 .nav {
@@ -161,7 +169,7 @@
     padding: 10px;
     border-radius: 15px;
     box-sizing: border-box;
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -178,14 +186,14 @@
 .article1 a {
     text-decoration: none;
     font: bold 13px/1 "Bahnschrift", sans-serif;
-    border: 2px solid #8c8c8c;
+    border: 2px solid #ff6a00;
     padding: 5px;
     border-radius: 25px;
-    color: #000000;
+    color: #ff6a00;
 }
 
 .article1 a:hover {
-    background-color: #000000;
+    background-color: #ff6a00;
     color: #ffffff;
     transition: 0.5s;
     cursor: pointer;
