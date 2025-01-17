@@ -40,8 +40,7 @@ body {
 }
 
 .h2-main:hover {
-    color: #ffffff;
-    background-color: #8c8c8c;
+    transform: scale(1.2);
     transition: 0.3s;
 }
 
@@ -49,6 +48,21 @@ body {
     font: 75px "Gill Sans", Helvetica, Arial, sans-serif;
     font-weight: 600;
     text-align: center;
+}
+
+.h2-SignUp {
+    border-radius: 55px;
+    color: #ffffff;
+    background-color: black;
+    font: 20px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+.h2-SignUp:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 
 .h6-main {
@@ -173,6 +187,11 @@ body {
     margin: auto;
 }
 
+.article1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .article1 h4 {
     font: bold 18px/1 "Bahnschrift", sans-serif;
 }
@@ -186,17 +205,17 @@ body {
 .article1 a {
     text-decoration: none;
     font: bold 13px/1 "Bahnschrift", sans-serif;
-    border: 2px solid #ff6a00;
+    border: 2px solid #000000;
     padding: 5px;
     border-radius: 25px;
-    color: #ff6a00;
+    color: #000000;
 }
 
-.article1 a:hover {
-    background-color: #ff6a00;
-    color: #ffffff;
+.article1 a:hover {)
     transition: 0.5s;
     cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .footer {
@@ -237,3 +256,4 @@ body {
     text-align: center;
     font: bold 18px/1 "Bahnschrift", sans-serif;
 }
+
