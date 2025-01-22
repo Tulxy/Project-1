@@ -84,7 +84,7 @@ body {
 }
 
 .h6-main-2 {
-    margin-top: 0px;
+    margin-top: 0;
     text-align: center;
     color: #808080;
     font: 12px "Arial Rounded MT Bold", Helvetica, Arial, sans-serif;
@@ -241,7 +241,7 @@ body {
  */
 
 .footer {
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 30px 30px 0 0;
     background: #c6c6c6;
     padding: 10px;
     margin-top: 20px;
